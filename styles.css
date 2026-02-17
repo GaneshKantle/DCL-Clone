@@ -48,9 +48,7 @@
             color: #525c6c;
         }
     }
-        .home a {
-            color: #e67000;
-        }
+       
 
     }
 
@@ -58,6 +56,11 @@
         color: #e67000;
         transition: 0.3s;
 
+    }
+
+    .menu li.active a,
+    .menu li a.active{
+        color: var(--orange);
     }
 
     .profile {
@@ -103,10 +106,11 @@
                     font-size: 18px;
                 }
 
-                h3 {
+                h3 a{
                     cursor: pointer;
                     font-size: 16px;
                     color: var(--orange);
+                    text-decoration: none;
                 }
 
                 .arrows {
