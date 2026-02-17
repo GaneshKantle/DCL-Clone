@@ -408,13 +408,18 @@
                             border-radius: 10px;
                         }
 
-                        .view {
+                        .view{
                             border: 1px solid #bcbfc4;
                             cursor: pointer;
                             color: #364153;
                             padding: 8px;
                             font-size: 16px;
                             border-radius: 10px;
+                           a{
+                            text-decoration: none;
+                            cursor: pointer;
+                            color: #364153;
+                           }
                         }
                     }
                 }
