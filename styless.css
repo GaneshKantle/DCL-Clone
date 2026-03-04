@@ -1,0 +1,37 @@
+:root {
+    --grey: #525c6c;
+    --orange: #e67000;
+    --green: #008000;
+}
+
+.main {
+    .header {
+        display: flex;
+        justify-content: space-around;
+
+        .leftside {
+            display: flex;
+            align-items: center;
+
+            i {
+                font-size: 30px;
+                color: #f54900;
+                background-color: #ffedd4;
+                padding: 12px;
+            }
+
+            .myapp {
+                p {
+                    color: #5e6876;
+                }
+            }
+        }
+
+        .rightside {
+            p {
+                color: var(--orange);
+                font: 1.3px !important;
+            }
+        }
+    }
+}
